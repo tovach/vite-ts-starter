@@ -1,0 +1,14 @@
+// Imports
+
+@import './libs';
+@import './vars';
+
+// Main styles
+
+.title {
+  display: flex;
+  margin: 0 0 50px;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.2;
+}

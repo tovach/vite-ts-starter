@@ -1,6 +1,6 @@
-import { FC } from "react";
+import { FC } from 'react';
 
-import "./styles/index.scss";
+import './styles/index.scss';
 
 type AppProps = {};
 
