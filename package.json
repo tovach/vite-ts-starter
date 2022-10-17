@@ -18,8 +18,8 @@
     "stylelint:fix": "stylelint --fix src/**/*.{scss,css}",
     "preview": "vite preview",
     "prepare": "husky install",
-    "precommit": "concurrently \"npm prettier:fix \" \"npm lint:fix \" \"npm stylelint:fix \" ",
-    "prepush": "concurrently \"npm build\" "
+    "precommit": "concurrently \"npm run prettier:fix \" \"npm run lint:fix \" \"npm run stylelint:fix \" ",
+    "prepush": "concurrently \"npm run build\" "
   },
   "eslintConfig": {
     "extends": [
